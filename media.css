@@ -1,0 +1,9 @@
+@media screen and (max-width:600px) {
+    #inp-box {
+        display: flex;
+        padding: 20px  0px;
+        gap : 10px;
+        flex-direction: column;
+        
+    }
+}

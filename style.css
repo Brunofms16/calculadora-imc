@@ -1,0 +1,139 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: ;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(59, 59, 59);
+    
+}
+.container {
+    border-top: 5px solid green;
+    background: #2b2b2b;
+    padding: 30px 40px;
+    min-width: 400px;
+    color:#efefef;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#input-group {
+    display: flex;
+    padding: 20px  0px;
+    gap : 50px;
+    
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px;
+
+}
+
+input {
+    background: rgb(34, 34, 34);
+    border: none;
+  height: 40px;
+  font-size: 20px;
+    padding: 5px;
+    color : #e4e4e4;
+    width: 300px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+input:focus {
+    cursor: pointer;   
+    color: white;
+
+}
+
+h1 {
+    padding-bottom : 30px ;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+button {
+    border: none;
+    background: green;
+    padding: 1rem 4rem;
+    border-radius: 10px;
+
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer  ;
+    font-size: 18px;
+    margin-bottom: 30px ;
+    transition: all 0.2s ease-in-out;
+
+}
+button:hover {
+    background: rgb(2, 172, 2);
+    transition: all 0.2s ease-in-out;
+}
+
+span {
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 600;
+   
+    
+}
+
+#result {
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    width: 100%;
+border-top: 2px solid gray;
+}
+
+#div-peso { 
+margin-bottom: 20px;
+}
+#div-alt{ 
+    margin-bottom: 20px;
+    }
+
+#inp-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+i , svg {
+    background: rgb(34, 34, 34);
+    display: none;
+  
+}
